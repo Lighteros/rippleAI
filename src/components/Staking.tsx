@@ -8,7 +8,7 @@ const Staking = () => {
 
   return (
     <div className="max-w-[1280px] mx-auto">
-      <div className="flex flex-col md:flex-row justify-between items-center pt-[150px] px-[20px]">
+      <div className="flex flex-col justify-between items-center pt-[150px] px-[20px]">
         <div className="flex flex-col">
           <div className="text-[300%] font-bold">STAKE DOGE20 TO GROW YOUR HOLDINGS</div>
           <div className="text-[120%] mt-[30px]">DOGE20 staking rewards will be paid out to users every single block, with 15% of the token supply distributed over a 2-year period. Staking rewards are calculated based on your percentage of the DOGE20 staking pool and the current annual returns percentage.</div>
