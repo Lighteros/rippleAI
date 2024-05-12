@@ -66,6 +66,22 @@ const Staking = () => {
             <p className="text-[80%]">Per ETH Block</p>
           </div>
         </div>
+        <div className="rounded-[20px] p-[20px] gap-3 flex flex-col" style={{border:"3px solid #878787", boxShadow:"0 0 10px #0c5d9e1a"}}>
+          <h1 className="text-[120%]">TOTAL REWARDS</h1>
+          <div className="flex flex-row gap-3">
+            <h2 className="text-[200%]">0</h2>
+            <p className="text-[80%]">DOGE20</p>
+          </div>
+          <div className="w-full">
+            <div className="relative">
+              <div className="absolute top-0 left-0 translate-x-[2px] translate-y-[2px] w-full h-full rounded-[9px] bg-black z-[2]" />
+              <div className="absolute top-0 left-0 translate-x-[4px] translate-y-[4px] w-full h-full rounded-[9px] bg-[#1FB985] z-[1]" />
+              <button className="flex justify-center items-center w-full h-10 mt-[13.66px] text-16 text-black font-bold rounded-[9px] bg-[#1CF2AA] relative z-[3]">
+                CLAIM REWARDS
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   )
